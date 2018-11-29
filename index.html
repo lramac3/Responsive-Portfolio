@@ -2,64 +2,91 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home Page</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
 </head>
 
-
 <body>
-    <header>
 
-        <div id="block">
-            <a href=index.html>
-                <h1 class="enabled">Linu Ramachandran</h1>
-            </a>
-        </div>
+    <div class="wrapper">
 
-        <nav class="imgtxtwrap">
-            <ul>
-
-                <li><a class="liborder" href="index.html">About</a></li>
-                <li><a class="liborder" href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-        </nav>
-
-    </header>
-
-    <div class="wrapper" id="indexdiv">
-        <div id="border">
-            <h2>About Me</h2>
-        </div>
-        <div id="imgtxtwrap">
-            <img class="resize" id="indeximg" alt="Profile Image" src="assets/images/portfolio1.jpg" />
-            <div id="spacer">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Et tortor consequat id porta nibh venenatis cras. Rhoncus dolor purus non
-                    enim. Id volutpat lacus laoreet non curabitur gravida arcu ac. Ultricies mi quis hendrerit dolor
-                    magna eget. Rhoncus urna neque viverra justo. Varius sit amet mattis vulputate. Ac feugiat sed
-                    lectus vestibulum mattis. Tellus elementum sagittis vitae et leo duis. Suspendisse interdum
-                    consectetur libero id faucibus.</p>
-
-                <p>Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Blandit cursus risus at ultrices.
-                    Sit amet nisl suscipit adipiscing bibendum est. Amet risus nullam eget felis eget nunc lobortis
-                    mattis aliquam. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Purus semper
-                    eget duis at tellus at urna. In vitae turpis massa sed elementum. Integer malesuada nunc vel risus
-                    commodo viverra maecenas. Amet facilisis magna etiam tempor orci eu. Commodo elit at imperdiet dui
-                    accumsan. Quis viverra nibh cras pulvinar mattis. Scelerisque varius morbi enim nunc. </p>
-
-
+        <header>
+            <div class="header-content">
+                <p class="header-name">
+                    Linu Ramachandran
+                </p>
+                <div class="header-row-wrap">
+                    <div class="header-row">
+                        <a href="contact.html">
+                            <p class="header-right-end">
+                                Contact
+                            </p>
+                        </a>
+                        <a href="portfolio.html">
+                            <p class="header-right">
+                                Portfolio
+                            </p>
+                        </a>
+                        <a href="index.html">
+                            <p class="header-right">
+                                About
+                            </p>
+                        </a>
+                    </div>
+                </div>
             </div>
+        </header>
+
+
+        <section class="page-contents">
+            <h1>About Me</h1>
+
+            <hr>
+
+            <div>
+
+                <img id="profile-pic" src="assets/images/portfolio1.jpg" alt="pf">
+
+
+                <div id="about-me-text">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit lectus a. Risus nec
+                        feugiat in fermentum posuere urna nec tincidunt praesent. Scelerisque varius morbi enim nunc
+                        faucibus a pellentesque sit amet. Convallis convallis tellus id interdum velit. Ipsum dolor sit
+                        amet consectetur adipiscing. In cursus turpis massa tincidunt dui ut. Ac orci phasellus egestas
+                        tellus rutrum tellus pellentesque. Ultrices in iaculis nunc sed augue. Nec tincidunt praesent
+                        semper feugiat nibh. Id semper risus in hendrerit.</p>
+                    <p>Justo laoreet sit amet cursus sit amet dictum. Enim ut tellus elementum sagittis vitae. Ut diam
+                        quam nulla porttitor massa id neque aliquam vestibulum. Ultrices tincidunt arcu non sodales
+                        neque. Adipiscing commodo elit at imperdiet dui accumsan sit. Laoreet sit amet cursus sit amet
+                        dictum sit amet justo. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse.
+                        Sagittis vitae et leo duis. Id nibh tortor id aliquet lectus proin nibh nisl. Enim ut sem
+                        viverra aliquet eget sit amet. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus
+                        at.</p>
+                    <p>Et tortor at risus viverra adipiscing. Id velit ut tortor pretium viverra suspendisse.
+                        Vulputate eu scelerisque felis imperdiet. Bibendum at varius vel pharetra vel. Risus commodo
+                        viverra maecenas accumsan lacus. Urna cursus eget nunc scelerisque. Integer enim neque volutpat
+                        ac tincidunt vitae semper. Dolor purus non enim praesent elementum. Nisl rhoncus mattis rhoncus
+                        urna neque viverra justo. Risus sed vulputate odio ut enim.</p>
+                </div>
+            </div>
+        </section>
+        <!--div class push - to make room for the footer-->
+        <div class="push">
+
         </div>
     </div>
 
-    <footer>
-
-        <p class="enabled" id="copy">Copyright &copy;</p>
-
+    <footer class="footer">
+        <h6>Copyright ©</h6>
     </footer>
+
 </body>
 
 </html>
