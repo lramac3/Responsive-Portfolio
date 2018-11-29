@@ -1,78 +1,109 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portfolio Page</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
 
 </head>
 
 <body>
-    <header>
-
-        <div id="block">
-            <a href=index.html>
-                <h1 class="enabled">Linu Ramachandran</h1>
-            </a>
-        </div>
-
-        <nav class="imgtxtwrap">
-            <ul>
-
-                <li><a class="liborder" href="index.html">About</a></li>
-                <li><a class="liborder" href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-        </nav>
-
-    </header>
-
-    <div class="wrapper" id="portfoliodiv">
-        <div id="border">
-            <h2>Portfolio</h2>
-
-            <div id="size">
-                <div>
-                    <img class="resize pimgs" id="pimg1" alt="Default" src="assets/images/android.png">
-                    <div class="greendiv" id="divmv1">
-                        <h3 id="hmmv">Hangman</h3>
-                    </div>
-                </div>
-                <div>
-                    <img class="resize pimgs" id="pimg2" alt="Default" src="assets/images/google.png">
-                    <div class="greendiv" id="divmv2">
-                        <h3 id="rpgmv">RPG Game</h3>
-                    </div>
-                </div>
-                <div>
-                    <img class="resize pimgs" id="pimg3" alt="Default" src="assets/images/altcoins.png">
-                    <div class="greendiv" id="divmv3">
-                        <h3 id="tgmv">Trivia Game</h3>
-                    </div>
-                </div>
-                <div>
-                    <img class="resize pimgs" id="pimg4" alt="Default" src="assets/images/analytics.png">
-                    <div class="greendiv" id="divmv4">
-                        <h3 id="mvrock">Rock Paper Scissors</h3>
-                    </div>
-                </div>
-                <div>
-                    <img class="resize pimgs" id="pimg5" alt="Default" src="assets/images/logo.jpg">
-                    <div class="greendiv" id="divmv5">
-                        <h3 id="mvrutgers">Rutgers Info Widget</h3>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <p class="header-name">
+                    Linu Ramachandran
+                </p>
+                <div class="header-row-wrap">
+                    <div class="header-row">
+                        <a href="contact.html">
+                            <p class="header-right-end">
+                                Contact
+                            </p>
+                        </a>
+                        <a href="portfolio.html">
+                            <p class="header-right">
+                                Portfolio
+                            </p>
+                        </a>
+                        <a href="index.html">
+                            <p class="header-right">
+                                About
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
+        </header>
+
+        <section class="page-contents">
+            <h1>Portfolio</h1>
+
+            <hr>
+
+            <div class="portfolio-pic-l" id="portfolio1">
+                <p class="portfolio-text">
+                    Hangman
+                </p>
+                <img class="portfoliojpg" src="/assets/images/android.png" alt="Hangman">
+            </div>
+
+            <div class="portfolio-pic-r" id="portfolio2">
+                <p class="portfolio-text">
+                    RPG Game
+                </p>
+                <img class="portfoliojpg" src="/assets/images/google.png" alt="RPG">
+            </div>
+
+            <div class="break">
+                <br>
+            </div>
+
+
+            <div class="portfolio-pic-l" id="portfolio3">
+                <p class="portfolio-text">
+                    Trivia Game
+                </p>
+                <img class="portfoliojpg" src="/assets/images/altcoins.png" alt="Trivia">
+            </div>
+
+            <div class="portfolio-pic-r" id="portfolio4">
+                <p class="portfolio-text">
+                    Rock Paper Scissors
+                </p>
+                <img class="portfoliojpg" src="/assets/images/analytics.png" alt="RPS">
+            </div>
+
+            <div class="break">
+                <br>
+            </div>
+
+            <div class="portfolio-pic-l" id="portfolio5">
+                <p class="portfolio-text">
+                    Rutgers Info Widget
+                </p>
+                <img class="portfoliojpg" src="/assets/images/logo.jpg" alt="Rutgers">
+            </div>
+
+            <div class="break">
+                <br>
+            </div>
+        </section>
+
+        <!--div class push - to make room for the footer-->
+        <div class="push">
+
         </div>
     </div>
 
-    <footer>
-
-        <p class="enabled" id="copy">Copyright &copy;</p>
-
+    <footer class="footer">
+        <h6>copyright ©</h6>
     </footer>
+
 </body>
 
 </html>
